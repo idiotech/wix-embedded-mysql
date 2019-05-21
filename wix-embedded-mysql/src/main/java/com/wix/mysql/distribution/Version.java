@@ -37,16 +37,17 @@ public enum Version implements IVersion {
     v5_7_18("5.7", 18, MacOsVersion.v10_12),
     v5_7_19("5.7", 19, MacOsVersion.v10_12),
     v5_7_20("5.7", 20, MacOsVersion.v10_12),
-    v5_7_21("5.7", 21, MacOsVersion.v10_12),
-    v5_7_22("5.7", 22, MacOsVersion.v10_12),
-    v5_7_23("5.7", 23, MacOsVersion.v10_12),
-    v5_7_24("5.7", 24, MacOsVersion.v10_12),
-    v5_7_25("5.7", 25, MacOsVersion.v10_12),
-    v5_7_latest(v5_7_25);
+    v5_7_21("5.7", 21, MacOsVersion.v10_13),
+    v5_7_22("5.7", 22, MacOsVersion.v10_13),
+    v5_7_23("5.7", 23, MacOsVersion.v10_13),
+    v5_7_24("5.7", 24, MacOsVersion.v10_14),
+    v5_7_25("5.7", 25, MacOsVersion.v10_14),
+    v5_7_26("5.7", 25, MacOsVersion.v10_14),
+    v5_7_latest(v5_7_26);
 
     private enum MacOsVersion {
         v10_6("osx"), v10_9("osx"), v10_10("osx"), v10_11("osx"),
-        v10_12("macos");
+        v10_12("macos"), v10_13("macos"), v10_14("macos");
 
         private final String osName;
 
